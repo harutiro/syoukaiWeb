@@ -1,17 +1,11 @@
 html,
-body {
-  height: 100%;
-}
 
 body {
-  font-family: sans-serif;
-  height: 100%;
+    font-family: 'Kosugi', sans-serif;
+    height: 100%;
 }
 
-button {
-  outline: none;
-  border: none;
-}
+/*==================================ヘッター======================================*/
 
 h1 {
   color: #000044;
@@ -25,26 +19,41 @@ h1 {
 }
 
 header {
-  background-image: url(img/it_header.png);
-  height: 250px;
+  background: url(img/s-003.png) center / cover;
+    width: 100%;
+  height: 325px;
   padding-top: 150px;
 }
 
+/*=======================================上のバー======================================*/
+
 nav {
-  background-color: #663300;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    background-color: #009B6B;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
 }
 
 nav ul {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  text-align: center;
+    float: right;
+    text-align: right;
+}
+
+nav p{
+    color: #e6eef6;
+    float: left;
+    margin: 0px;
+    margin-top: 8px;
+    margin-left: 30px;
+    font-size: 30px;
+    
 }
 
 nav li {
-  display: inline-block;
-  margin-right: 40px;
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 25px;
 }
 
 nav a {
@@ -56,11 +65,7 @@ nav a:hover {
   color: #ffcc11;
 }
 
-.shop {
-  background-color: #ffffee;
-  color: #663300;
-  padding: 30px;
-}
+/*==================================使いまわし系================================*/
 
 .title {
   font-size: 30px;
@@ -70,116 +75,61 @@ nav a:hover {
   margin-bottom: 50px;
 }
 
-.shop p {
-  font-size: 20px;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 30px;
-  height: 300px;
+/*==================================紹介文======================================*/
+
+.intro {
+  background-color: #EBF7F7;
+  padding: 30px;
+    
 }
 
-.shop img {
+.intro h2{
+    border-color: #F9C15F;
+    color: #009B6B;
+}
+
+.intro p{
+    color: #000000;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 90px;
+    
+}
+
+.intro img {
   float: right;
 }
 
-.photo {
+/*=======================================紹介部分================================*/
+
+.free {
   padding: 30px;
-  background-image: url(img/wood.jpg);
+  background-color: #E6EEF6;
 }
 
-.photo h2 {
-  color: #ffffff;
-  border-color: #ffcc11;
+.free h2 {
+  color: #009B6B;
+  border-color: #F9C15F;
 }
 
-.photo h3 {
-  color: #663300;
-}
 
-.photo p {
-  color: #ffffff;
-  clear: left;
-}
 
-.big {
-  background-color: #ffffff;
-  width: 500px;
-  padding: 15px;
-  margin: 20px;
-  box-shadow: 10px 10px 20px #000000;
-  float: left;
-  transform: rotate(-5deg);
-}
 
-.small {
-  background-color: #ffffff;
-  width: 240px;
-  padding: 15px;
-  margin: 20px;
-  box-shadow: 10px 10px 20px #000000;
-}
-
-.box {
-  float: left;
-}
-
-.price {
+.paid {
   padding: 30px;
-  background-image: url(img/wood.jpg);
+  background-color: #E6EEF6;
 }
 
-.price h2 {
-  color: #ffffff;
-  border-color: #ffcc11;
+.paid h2 {
+  color: #009B6B;
+  border-color: #F9C15F;
 }
 
-.price table {
-  background-color: #ffffdd;
-  border-collapse: collapse;
-  width: 100%;
-}
 
-.price td {
-  border: 1px solid #000000;
-  padding: 10px;
-}
-
-.price th {
-  border: 1px solid #000000;
-  padding: 10px;
-  background-color: #ffcc11;
-  text-align: left;
-}
-
-.season th {
-  background-color: #33ddcc;
-}
-
-.access {
-  padding: 30px;
-  background-color: #ffffdd;
-  height: 400px;
-  color: #663300;
-}
-
-.access h3 {
-  font-size: 50px;
-  font-family: lobster;
-  margin-top: 0px;
-}
-
-.access ul {
-  list-style-type: none;
-  padding-left: 0px;
-}
-
-.access div {
-  float: left;
-  width: 50%;
-}
+/*=========================================フッター===============================*/
 
 footer {
   text-align: center;
-  background-color: #663300;
-  color: #ffffff;
+  background-color: #009B6B;
+  color: #E6EEF6;
 }
