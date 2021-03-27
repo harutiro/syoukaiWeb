@@ -93,6 +93,7 @@ nav a:hover {
 }
 
 .intro p{
+    height: 100px;
     color: #000000;
     background-color: #ffffff;
     padding: 30px;
@@ -105,6 +106,10 @@ nav a:hover {
 }
 
 /*=======================================紹介部分================================*/
+
+.boxes{
+    display: flex;
+}
 
 .box {
     padding: 0px;
@@ -154,6 +159,43 @@ nav a:hover {
     width: 400px;
     height: 200px;
     object-fit: cover
+}
+
+.box-third{
+    
+}
+
+.box-third p{
+    margin: var(--yohaku);
+    height: 130px;
+}
+
+.box-button{
+    /*    背景*/
+    background: #f9f9f9;
+/*    文字の色*/
+    color: #ff4c4c;
+/*    文字のサイズ*/
+    font-size: 12px;
+/*    枠線の太さ　先の種類　線の色*/
+    border: 1px solid #ff4c4c;
+    
+/*    枠線の感覚*/
+    padding: 8px;
+/*    テキストにつく線の種類*/
+    text-decoration: none;
+/*    角丸の半径*/
+    border-radius: 8px;
+    
+    margin-left: var(--yohaku);
+}
+
+.box-button:hover{
+    background: #ff4c4c;
+    color: #f9f9f9;
+    
+/*    ふわっとするアニメーション*/
+    transition: 1s;
 }
 
 
