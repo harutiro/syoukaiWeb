@@ -119,7 +119,7 @@ nav a:hover {
     margin-top: var(--yohaku);
     padding: 0px;
     background-color: #FEFEFE;
-    height: 500px;
+    height: 570px;
     width: 400px;
     margin-left: var(--yohaku);
     box-shadow: 5px 5px 20px #999999;
@@ -165,6 +165,28 @@ nav a:hover {
     width: 400px;
     height: 200px;
     object-fit: cover
+}
+.box-center{
+    height: 70px;
+}
+
+.box-center img {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    margin-left: var(--yohaku);
+    margin-top: var(--yohaku);
+    float: left;
+    box-shadow: 1px 2px 8px #999999;
+}
+
+.box-center-name{
+    float:left;
+}
+
+.box-center-name p{
+    
 }
 
 .box-third {}
