@@ -1,5 +1,9 @@
 html,
 
+:root{
+    --yohaku: 20px;
+}
+
 body {
     font-family: 'Kosugi', sans-serif;
     height: 100%;
@@ -90,7 +94,7 @@ nav a:hover {
 
 .intro p{
     color: #000000;
-    background-color: aliceblue;
+    background-color: #ffffff;
     padding: 30px;
     border-radius: 90px;
     
@@ -101,6 +105,60 @@ nav a:hover {
 }
 
 /*=======================================紹介部分================================*/
+
+.box {
+    padding: 0px;
+    background-color: #FEFEFE;
+    height: 500px;
+    width: 400px;
+    margin-left: var(--yohaku);
+    box-shadow: 5px 5px 20px #999999;
+}
+
+.box-first{
+    height: 60px;
+    width: 100%;
+}
+
+.box-first img{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    margin-left: var(--yohaku);
+    margin-top: var(--yohaku);
+    float: left;
+    box-shadow: 1px 2px 8px #999999;
+}
+
+.box-first div{
+    float: left;
+    margin-left: var(--yohaku);
+}
+
+.box-first p{
+    margin: 0px;
+    margin-top: 7px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.box-first h3{
+    margin: 0px;
+    margin-top: 23px;
+    font-size: 23px;
+}
+
+.box-second{
+    margin-top: var(--yohaku);
+    width: 400px;
+    height: 200px;
+    object-fit: cover
+}
+
+
+
+
 
 .free {
   padding: 30px;
