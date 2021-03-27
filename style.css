@@ -122,7 +122,7 @@ nav a:hover {
     height: 500px;
     width: 400px;
     margin-left: var(--yohaku);
-    box-shadow: 0px 0Spx 20px #999999;
+    box-shadow: 5px 5px 20px #999999;
     border-radius: 20px;
 }
 
@@ -172,6 +172,7 @@ nav a:hover {
 .box-third p {
     margin: var(--yohaku);
     height: 130px;
+    font-size: 14px;
 }
 
 .box-button {
@@ -216,11 +217,21 @@ nav a:hover {
     border-color: #F9C15F;
 }
 
+.todo {
+    padding: 30px;
+    background-color: #E6EEF6;
+    padding-bottom: 150px;
+}
+
+.todo h2 {
+    color: #009B6B;
+    border-color: #F9C15F;
+}
+
 
 /*=========================================フッター===============================*/
 
 footer {
-    margin-top: 100px;
     text-align: center;
     background-color: #009B6B;
     color: #E6EEF6;
