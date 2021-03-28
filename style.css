@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html,
 
 :root {
@@ -98,6 +103,7 @@ nav a:hover {
 .intro {
     background-color: #EBF7F7;
     padding: 30px;
+    height: 500px;
 
 }
 
